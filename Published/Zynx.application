@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <assemblyIdentity name="Zynx.application" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <assemblyIdentity name="Zynx.application" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="HP" asmv2:product="Zynx" xmlns="urn:schemas-microsoft-com:asm.v1">An smart windows app for managing your battery charging cycle.</description>
-  <deployment install="true" mapFileExtensions="true" minimumRequiredVersion="1.0.0.0" co.v1:createDesktopShortcut="true">
+  <deployment install="true" mapFileExtensions="true" minimumRequiredVersion="1.0.0.6" co.v1:createDesktopShortcut="true">
     <subscription>
       <update>
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://raw.githubusercontent.com/startatrix/zynx-pro/main/Published/Zynx.application" />
+    <deploymentProvider codebase="https://download.zynx.app/startatrix/zynx-pro/main/Published/Zynx.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\Zynx_1_0_0_5\Zynx.dll.manifest" size="8400">
-      <assemblyIdentity name="Zynx.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+    <dependentAssembly dependencyType="install" codebase="Application Files\Zynx_1_0_0_7\Zynx.dll.manifest" size="8400">
+      <assemblyIdentity name="Zynx.exe" version="1.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>88Ez+ADqLfMUi9MeLu9WWUV4aflI54EtNhZuMIu5NTY=</dsig:DigestValue>
+        <dsig:DigestValue>jsf9O1kgYvCTeQGwSx7k0NH28K3mWgCUHRQDSub9ClA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
